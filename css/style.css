@@ -1,0 +1,54 @@
+.banner{
+    background-image: url(/image/2974061.jpg);
+    background-position: center;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+    padding: 100px;
+}
+.main{
+    margin: -10px;
+}
+.heading{
+   font-size: 80px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   letter-spacing: 25px;
+   
+}
+/* .para{
+    text-align: justify;
+} */
+
+.btn{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 8px 26px;
+    margin-top: 40px;
+    border-radius: 6px;
+}
+.heading-two{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    letter-spacing: 15px;
+}
+.images{
+    text-align: center;
+}
+.one{
+    width: 33%;
+}
+.two{
+    width: 33%;
+}
+.three{
+    width: 33%;
+}
+.two-para{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
