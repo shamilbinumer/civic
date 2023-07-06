@@ -13,6 +13,8 @@
     margin: -10px;
 }
 .heading{
+   border-bottom: 3px solid red;
+   padding: -0px;
    font-size: 80px;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    letter-spacing: 25px;
@@ -29,26 +31,52 @@
     padding: 8px 26px;
     margin-top: 40px;
     border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: brown;
+    transition: 0.5s;
 }
 .heading-two{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     letter-spacing: 15px;
+    color: rgb(117, 16, 16);
+    
 }
 .images{
     text-align: center;
+    padding: 5px;
+    border-radius: 6px;
 }
-.one{
-    width: 33%;
-}
-.two{
-    width: 33%;
-}
-.three{
-    width: 33%;
+.img{
+    width: 32%;
+    border-radius: 10px;
+    margin-left: 10px;
+
 }
 .two-para{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 
+}
+.button{
+    text-align: center;
+    padding: 50px;
+    
+}
+.last-btn{
+    text-decoration: none;
+    color: black;
+    padding: 6px 15px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.last-btn:hover{
+    background-color: black;
+    color: white;
 }
